@@ -43,8 +43,8 @@ Bootstrap 3 (optional)
 ## how to setup  
   
 ### put the pretrained model under "engine/data/trained_model"  
-rel_first_model.pth https://drive.google.com/file/d/1AQN8yJvQ489Ogcaf6vyCLZTa75bfAZm5/view?usp=sharing  
-rel_second_model.pth https://drive.google.com/file/d/1Qs2TDIfjP39A28gIS0io7oOSTCOuyHAu/view?usp=sharing  
+rel_first_model.pth https://drive.google.com/open?id=1XHNtDdjvvs_9vKDQRKAkf-JDOzgUInxN  
+rel_second_model.pth https://drive.google.com/open?id=1fwDTa3y9PtBysLpyAgy14nNN4huAZ3DT  
   
 ### setup azure key  
 1.get free microsoft azure account, setup Bing Search and Computer Vision API resource    
