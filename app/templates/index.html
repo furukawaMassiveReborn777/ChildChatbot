@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="cover">
+	<div class="oval">
+<div class="parent">
+  <div class="titlemain">
+    <span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;Child Bot Marc
+  </div>
+  <div class="power">
+    powered by massive lngg, Inc.
+  </div>
+  <div class="child">
+    <div class="main_top">
+      Ask a question
+    </div>
+    <div class="main_center">
+      <div class="form">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="talk">
+                Talk to Me
+              </div>
+              <form action="/post" method="post" class="form-inline">
+                <div class="input_design">
+										<i class="glyphicon glyphicon-pencil"></i>
+                    <input type="text" class="form-control" id="question" name="question" placeholder="Question"/>
+                </div>
+              </form>
+              <p id="question">
+                  {{ question }}
+              </p>
+              <p id="answer">
+                  {{ answer }}
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<script>
+  function typing(letter = ""){
+      var buf = document.getElementById("answer").innerHTML;
+      var writed = buf.length;
+      var write = "";
+      if(writed < letter.length){
+          write = letter.charAt(writed);
+      }
+      document.getElementById("answer").innerHTML = buf + write;
+  }
+
+  const comp_letter = document.getElementById("answer").innerHTML;
+  const delay_time = 60
+
+  document.getElementById("answer").innerHTML = "";
+  window.setInterval(function(){typing(comp_letter);}, delay_time);
+</script>
+{% endblock %}
