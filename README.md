@@ -60,7 +60,7 @@ put your key to json secret file
 ```  
 2.set the path of json secret file on "engine/azure/settingaz.py"  
 ```  
-SECRET_FILE = "./engine/data/refer/azure_secret_sampl.json"(replace with your path)  
+SECRET_FILE = "./engine/data/refer/azure_secret_sample.json"(replace with your path)  
 ```  
   
 ## command to start  
