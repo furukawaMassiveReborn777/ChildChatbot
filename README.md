@@ -43,8 +43,8 @@ Bootstrap 3 (optional)
 ## how to setup  
   
 ### put the pretrained model under "engine/data/trained_model"  
-rel_first_model.pth <download path> todo rev  
-rel_second_model.pth <download path> todo rev  
+rel_first_model.pth https://drive.google.com/file/d/1AQN8yJvQ489Ogcaf6vyCLZTa75bfAZm5/view?usp=sharing  
+rel_second_model.pth https://drive.google.com/file/d/1Qs2TDIfjP39A28gIS0io7oOSTCOuyHAu/view?usp=sharing  
   
 ### setup azure key  
 1.get free microsoft azure account, setup Bing Search and Computer Vision API resource    
@@ -131,7 +131,7 @@ and output the class name of the vector
 the experiment to acquire high order concepts from videos automatically  
 (the pretrained vectors are obtained by using codes of this repository)  
   
-github link <> todo rev  
+https://github.com/furukawaMassiveReborn777/abstract-concept-video-learning  
   
 ## accuracy on valid dataset  
 VTransE models    
