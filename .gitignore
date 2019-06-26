@@ -10,6 +10,7 @@ engine/data/tmp/azure_rel_dict/*
 *.jpg
 *.jpeg
 *.png
+!*childbotscreen.png
 *tmp/rel_sec_test*
 *childicon.png
 *penicon.png
