@@ -13,7 +13,7 @@ input:Does a man rides on an elephant?
 bot answer:that's right  
 input:A woman is smaller than a cat?  
 bot answer:that's wrong  
-input:Does a man wears a hat?  
+input:Does a man wear a hat?  
 bot answer:Mostly, yes  
 input:A house is taller than a flower?  
 bot answer:that's right  
